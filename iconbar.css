@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aliceblue;
+  padding: 0px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo-home {
+  padding: 20px 40px;
+}
+header .logo-home a {
+  text-decoration: none;
+  color: #32a2a8;
+  font-size: 28px;
+}
+header .links ul li {
+  list-style-type: none;
+  padding: 20px 40px;
+  display: inline-block;
+}
+header .links ul li a {
+  text-decoration: none;
+  color: #32a2a8;
+  font-size: 28px;
+}
+header .links ul li:hover {
+  background-color: #32a2a8;
+}
+header .links ul li:hover a {
+  color: aliceblue;
+}

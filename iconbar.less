@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aliceblue;
+    padding: 0px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .logo-home{
+        padding: 20px 40px;
+        a{
+            text-decoration: none;
+            color: #32a2a8;
+            font-size: 28px;
+        }
+    }
+    .links{
+        ul{
+            li{
+                list-style-type: none;
+                padding: 20px 40px;
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    color: #32a2a8;
+                    font-size: 28px; 
+                }
+                &:hover{
+                    background-color: #32a2a8;
+                }
+                &:hover a{
+                   color:aliceblue;
+                }
+            }
+        }
+    }
+}
